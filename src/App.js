@@ -91,7 +91,7 @@ function ChatRoom() {
 
     setFormValue('');
 
-    dummy.current.scrollIntoView({});
+    dummy.current.scrollIntoView({behaviour: 'smooth'});
   };
 
   return (
